@@ -7,5 +7,3 @@ Jansen Wiratama
 Muhamad Novrie Zainuddin
 Uminasha Puteri 
 Zaniar Rickiansyah
-
-tes tes
