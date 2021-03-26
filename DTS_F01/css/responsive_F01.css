@@ -1,11 +1,94 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  
+  .menu-icon {
+    display: block;
+  }
+  .header-list {
+    display: none;
+  }
+  .header-left{
+    margin-left: 40px;
 }
 
+  .program-studi {
+    display: flex;
+  }
+  .program-studi .items {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
+  .prodi {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .prodi h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .prodi p {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .prodi a {
+    margin-left: 20px;
+    color: red;
+  }
+}
 
 /* Untuk HP */
 @media all and (max-width: 670px) {
+  .menu-icon {
+    display: block;
+  }
+  .header-list {
+    display: none;
+  }
+  .header-logo {
+    display: none;
+  }
+  .header-left {
+    margin-left: 70px;
+  }
+  .program-studi {
+    display: flex;
+    flex-direction: column;
+  }
+  .program-studi .items {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
+  .prodi {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .prodi h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .prodi p {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .prodi a {
+    margin-left: 20px;
+    color: blueviolet;
+  }
 }
