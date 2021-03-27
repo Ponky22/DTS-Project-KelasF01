@@ -18,14 +18,22 @@ div {
 	font-family: muli;
 }
 
+body {
+	min-height: 100vh;
+	position: relative;
+}
+
 p {
 	color: red;
+}
+
+a {
+	text-decoration: none;
 }
 
 .container {
 	width: 1280x;
 	margin: 0px;
-
 }
 
 header {
@@ -81,10 +89,10 @@ li {
 .dropbtn {
 	background-color: blue;
 	color: white;
-	padding: 25px 25px;
+	/* padding: 25px 25px; */
 	font-size: 16px;
 	border: none;
-	height: 65px;
+	/* height: 65px; */
 }
 
 .dropdown {
@@ -106,19 +114,6 @@ li {
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
-}
-
-.dropdown-content a:hover {
-	background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-	display: block;
-}
-
-.dropdown:hover .dropbtn {
-	background-color: #3e8e41;
-	height: 65px;
 }
 
 .sc-offleft {
@@ -459,7 +454,8 @@ a {
 	color: #fdcb2c;
 }
 
-.schome-spotlight__block.right-top, .schome-spotlight__block.right-bottom {
+.schome-spotlight__block.right-top,
+.schome-spotlight__block.right-bottom {
 	height: 50%;
 	float: right;
 }
@@ -468,12 +464,14 @@ a {
 	background-color: #2aa9e0;
 }
 
-.schome-spotlight__block.right-top .text-center, .schome-spotlight__block.right-bottom .text-center {
+.schome-spotlight__block.right-top .text-center,
+.schome-spotlight__block.right-bottom .text-center {
 	top: 0;
 	color: #fff;
 }
 
-.right-top p, .right-bottom p {
+.right-top p,
+.right-bottom p {
 	color: #fff;
 }
 
@@ -495,4 +493,90 @@ a {
 	left: -25px;
 	right: auto;
 	content: '\f0d9';
-}
+
+	.menu-icon {
+		display: none;
+	}
+
+	.header-list {
+		display: flex;
+	}
+
+	.header-list li {
+		flex: auto;
+		transition: transform .5s;
+	}
+
+	/* Hover Animation  */
+
+	.dropdown-content a:hover {
+		background-color: #ddd;
+	}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+
+	.dropdown:hover .dropbtn {
+		background-color: #3e8e41;
+	}
+
+	.prodi a:hover {
+		color: darkblue;
+		opacity: 0.7;
+	}
+
+	.header-list li:hover {
+		color: turquoise;
+		cursor: pointer;
+		transform: scale(1.2)
+	}
+
+
+	footer img {
+		width: 125px;
+		padding-top: 5px;
+		padding-left: 200px;
+		padding-bottom: 5px;
+		padding-right: 10px;
+	}
+
+	footer p {
+		color: #b3aeb5;
+		font-size: 12px;
+	}
+
+	footer {
+		width: 100%;
+		background-color: rgb(49, 76, 153);
+		color: white;
+		position: absolute;
+		bottom: 0;
+	}
+
+	.footer-logo {
+		display: flex;
+		align-items: center;
+	}
+
+	.footer-textlogo {
+		font-size: 30px;
+		color: white;
+		padding-bottom: 5px;
+		padding-top: 0px;
+	}
+
+	.fas,
+	.far {
+		padding-right: 20px;
+		padding-bottom: 5px;
+	}
+
+	.footer-copyright {
+		background-color: rgb(26, 104, 221);
+		padding-left: 220px;
+	}
+
+	.copyright {
+		color: white;
+	}
