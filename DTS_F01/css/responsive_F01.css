@@ -47,6 +47,24 @@
     width: 100%;
 
   }
+  .schome-spotlight__block  {
+    width: 100%;
+    float:none;
+  }
+  .schome-spotlight {
+    height: 50%;
+  }
+
+  .footer-logo {
+    width: 100%;
+    text-align: center;
+    padding-left:0 !important;
+  }
+
+  footer img {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }
 
 /* Untuk HP */
@@ -108,5 +126,9 @@
   .col-md-3 {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .schome-spotlight__block.left-full .text-center, .schome-spotlight__block.right-top, .schome-spotlight__block.right-bottom {
+    height: 100%;
   }
 }
