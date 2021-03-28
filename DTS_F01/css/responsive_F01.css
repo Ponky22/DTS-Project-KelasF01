@@ -42,6 +42,11 @@
     margin-left: 20px;
     color: red;
   }
+
+  .col-md-6 {
+    width: 100%;
+
+  }
 }
 
 /* Untuk HP */
@@ -90,5 +95,18 @@
   .prodi a {
     margin-left: 20px;
     color: blueviolet;
+  }
+
+  .slick-track {
+    flex-direction: column;
+  }
+
+  .slick-slide {
+    width:100%;
+  }
+
+  .col-md-3 {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
