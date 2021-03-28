@@ -414,7 +414,7 @@ h3 {
 	top: 50%;
 	left: 50%;
 	width: 80%;
-	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .schome-spotlight h3 {
@@ -493,90 +493,90 @@ a {
 	left: -25px;
 	right: auto;
 	content: '\f0d9';
+}
 
-	.menu-icon {
-		display: none;
-	}
+.menu-icon {
+	display: none;
+}
 
-	.header-list {
-		display: flex;
-	}
+.header-list {
+	display: flex;
+}
 
-	.header-list li {
-		flex: auto;
-		transition: transform .5s;
-	}
+.header-list li {
+	flex: auto;
+	transition: transform .5s;
+}
 
-	/* Hover Animation  */
+/* Hover Animation  */
 
-	.dropdown-content a:hover {
-		background-color: #ddd;
-	}
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
 
-	.dropdown:hover .dropdown-content {
-		display: block;
-	}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
 
-	.dropdown:hover .dropbtn {
-		background-color: #3e8e41;
-	}
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
 
-	.prodi a:hover {
-		color: darkblue;
-		opacity: 0.7;
-	}
+.prodi a:hover {
+	color: darkblue;
+	opacity: 0.7;
+}
 
-	.header-list li:hover {
-		color: turquoise;
-		cursor: pointer;
-		transform: scale(1.2)
-	}
+.header-list li:hover {
+	color: turquoise;
+	cursor: pointer;
+	transform: scale(1.2)
+}
 
+footer img {
+	width: 125px;
+	padding-top: 5px;
+	padding-left: 200px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+}
 
-	footer img {
-		width: 125px;
-		padding-top: 5px;
-		padding-left: 200px;
-		padding-bottom: 5px;
-		padding-right: 10px;
-	}
+footer p {
+	color: #b3aeb5;
+	font-size: 12px;
+}
 
-	footer p {
-		color: #b3aeb5;
-		font-size: 12px;
-	}
+footer {
+	width: 100%;
+	background-color: rgb(49, 76, 153);
+	color: white;
+	position: absolute;
+	bottom: 0;
+}
 
-	footer {
-		width: 100%;
-		background-color: rgb(49, 76, 153);
-		color: white;
-		position: absolute;
-		bottom: 0;
-	}
+.footer-logo {
+	display: flex;
+	align-items: center;
+}
 
-	.footer-logo {
-		display: flex;
-		align-items: center;
-	}
+.footer-textlogo {
+	font-size: 30px;
+	color: white;
+	padding-bottom: 5px;
+	padding-top: 0px;
+}
 
-	.footer-textlogo {
-		font-size: 30px;
-		color: white;
-		padding-bottom: 5px;
-		padding-top: 0px;
-	}
+.fas,
+.far {
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
 
-	.fas,
-	.far {
-		padding-right: 20px;
-		padding-bottom: 5px;
-	}
+.footer-copyright {
+	background-color: rgb(26, 104, 221);
+	padding-left: 220px;
+}
 
-	.footer-copyright {
-		background-color: rgb(26, 104, 221);
-		padding-left: 220px;
-	}
-
-	.copyright {
-		color: white;
-	}
+.copyright {
+	color: white;
+}
